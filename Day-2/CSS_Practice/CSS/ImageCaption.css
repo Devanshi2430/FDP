@@ -1,0 +1,39 @@
+.Image{
+    float: left;
+    width:250px;
+    height:450px;
+    margin: 25px;
+    background-color: floralwhite;
+    border:2px solid black;
+    box-shadow: 5px -5px 5px grey;
+    padding: 5px;
+}
+.DisplayImg{
+    height:250px;
+    width:220px;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.DisplayImg img{
+    width:250px;
+    height:220px;
+}
+.ImgDetails{
+    width: 250px;
+    height: 350px;
+    margin-top: 25px;
+    text-align: justify;
+}
+.heading{
+    text-align: center;
+    color:brown;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: 1px 1px yellow;
+}
+@media (min-width:200px) and (min-height:450px) {
+   #Display .Display{
+      width: 95%;
+   } 
+}

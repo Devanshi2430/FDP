@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+p{
+    height: auto;
+    width:500px;
+    max-height: 400px;
+    background-color: aliceblue;
+    color: brown;
+    padding: 5px;
+    font-size: larger;
+    position: relative;
+    text-align: justify;
+}
+.P1{
+    background-color: aquamarine;
+    position: relative;
+}
+.P2{
+    background-color: aqua;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.H1{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+#GTU{
+    height: 100px;
+    width: 100px;
+    background-color: darkgray;
+    position: absolute;
+    width: fit-content;
+    color: antiquewhite;
+}

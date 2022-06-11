@@ -1,0 +1,35 @@
+*{
+    color:white;
+}
+ul{
+    height:50px;
+    width:100%;
+    background-color: maroon;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    margin: 5px;
+    padding: 2px;
+    display: inline-block;
+    list-style: none;
+    height:20px;
+    color: aliceblue;
+    font-size: 32px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: yellowgreen;
+}
+.active a{
+    color: yellow;
+}
+#P1{
+    font-size: 50px;
+    color: maroon;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px gray;
+}

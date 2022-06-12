@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+            <style type="text/css">
+                body{
+                    background-color: whitesmoke;
+                }
+            </style>
+            <link rel="stylesheet" type="text/css" href="CSS/Style1.css">
+            <script type="text/javascript">
+                document.write("Hello");
+                alert("This is an alert message");
+                console.log("This is console");
+                function PrintName(){
+                  var name = prompt("Enter Name");
+                  document.getElementById("PrintName").innerHTML=name;
+                }
+                function color(){
+                    var n = prompt("Enter Color");
+                    document.getElementById("c1").style.backgroundColor=n;
+                }
+            </script>
+    </head>
+    <body id="c1">
+        <button onclick="PrintName()">Click</button>
+        <button onclick="color()">Change Color</button>
+        <h1>Welcome <span id="PrintName"></span></h1>
+        <p>Today is Sunday!!</p>
+        <p class="P1">Sunday is Holiday!!</p>
+        <section class="slider">
+            <div class="slider_img float-left">
+                <img src="../CSSPractice/Images/Image2.png" class="Img1">
+                <img src="../CSSPractice/Images/Image3.jpg" class="Img1" onclick="document.getElementById('Img2').src = '../CSSPractice/Images/Image3.jpg';">
+                <img src="../CSSPractice/Images/Image4.jpg" class="Img1">
+            </div>
+            <div class="slider_img1">
+                <img src="../CSSPractice/Images/Image5.jpg" id="Img2">
+            </div>
+        </section>
+        <div class="clear">
+            <button id="Show" onclick="document.getElementById('Details').style.fontSize='60px';">Style</button>
+            <button id="Show" onclick="document.getElementById('Details').innerHTML='This is text';">Show</button>
+            <button id="Hide" onclick="document.getElementById('Details').innerHTML='';">Hide</button>
+            <p id="Details">Hello, Friends!!!</p>
+        </div>
+    </body>
+</html>

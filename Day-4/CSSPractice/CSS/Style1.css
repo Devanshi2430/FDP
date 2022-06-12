@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Harland Roselyn;
+    src: url(../Font/Harland\ Roselyn.ttf);
+    font-size: 42px;
+}
+p{
+    font-family: Harland Roselyn;
+    font-size: 48px;
+    color: lightseagreen;
+    text-align: center;
+    text-shadow: 1px 1px brown;
+}
+@font-face {
+    font-family: Alone in the Dark;
+    src: url(../Font/Alone\ in\ the\ Dark.ttf);
+    font-size: 42px;
+}
+.P1{
+    font-family: Alone in the Dark;
+    font-size: 48px;
+    color: lightseagreen;
+    text-align: center;
+    text-shadow: 2px 2px 2px brown;
+}
+.Img1{
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 2px 2px;
+    padding: 5px;
+    margin: 5px;
+}
+#Img2{
+    height: 600px;
+    width: 600px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 2px 2px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.slider_img{
+    width: 200px;
+}
+.slider_img img{
+    width:200px;
+}
+.float-left{
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+.clear{
+    clear: both;
+}
+#printName{
+    color: darkcyan;
+    font-size: 52px;
+    text-shadow: 2px 2px maroon;
+}
+h1{
+    color: darkcyan;
+    font-size: 52px;
+    text-shadow: 2px 2px maroon;
+}

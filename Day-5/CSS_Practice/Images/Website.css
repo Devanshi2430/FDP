@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+}
+header{
+    height:40px;
+    width:100%;
+    background-color: darkblue;
+
+}
+.p1{
+    font-size: 20px;
+    color: aliceblue;
+    float: left;
+    margin: 4px;
+}
+.p2{
+    font-size: 20px;
+    color: aliceblue;
+    float:right;
+    margin: 4px;
+}
+.maindiv{
+    width: 100%;
+    height:900px;
+    background-color: beige;
+}
+.logo{
+    height: 100px;
+    width: 100%;
+}
+.logo1{
+    height: 130px;
+    width: 130px;
+    float: left;
+    margin: 1px;
+}
+.logo2{
+    height: 100px;
+    width: 80px;
+    float:right;
+    margin: 8px;
+}
+
+h1{
+    float: left;
+    margin-left:150px;
+}
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: darkblue;
+    margin-top:35px;
+}
+list ul li{
+    display: inline-block;
+    list-style: none;
+    color:aliceblue;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left:10px;
+
+}
+.tab{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+.tab1{
+    margin-top: 20px;
+    height:300px;
+    width:200px;
+    padding: 20px;
+    margin-left:10px;
+    float: left;
+}
+.not{
+    background-color:darkblue;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+.add{
+   color: darkblue;
+   text-align: center;
+}
+.content{
+    margin-top: 20px;
+    height:300px;
+    width:400px; 
+    float:left;
+    margin-left: 110px;
+}
+.content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.gtu1{
+    color: darkblue;
+    text-shadow: 3px 3px 1px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.gtu{
+    text-align: justify;
+}
+.tab2{
+    margin-top: 20px;
+    height:300px;
+    width:200px;
+    padding: 20px;
+    margin-right:10px;
+    float:right;
+}
+.not1{
+    background-color:darkblue;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+footer{
+    height:40px;
+    width:100%;
+    background-color: darkblue;
+    color:aliceblue;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+}

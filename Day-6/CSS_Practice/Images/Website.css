@@ -5,6 +5,7 @@ header{
     height:40px;
     width:100%;
     background-color: darkblue;
+
 }
 .p1{
     font-size: 20px;
@@ -29,20 +30,20 @@ header{
 }
 .logo1{
     height: 130px;
-    width: 150px;
+    width: 130px;
     float: left;
     margin: 1px;
 }
 .logo2{
     height: 100px;
-    width: 100px;
+    width: 80px;
     float:right;
     margin: 8px;
 }
 
 h1{
     float: left;
-    margin-left:190px;
+    margin-left:150px;
 }
 .menu{
     height: 60px;
@@ -87,7 +88,7 @@ list ul li{
     height:300px;
     width:400px; 
     float:left;
-    margin-left: 160px;
+    margin-left: 110px;
 }
 .content p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -126,11 +127,4 @@ footer{
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
-}
-button{
-    height: 40px;
-    width: 100px;
-    color: white;
-    background-color: darkblue;
-    border-radius: 10px 10px;
 }

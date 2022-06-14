@@ -128,3 +128,10 @@ footer{
     font-size: x-large;
     padding-top: 10px;
 }
+button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px 10px;
+}
